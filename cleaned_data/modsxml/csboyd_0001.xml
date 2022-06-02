@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <identifier type="local">csboyd_0001</identifier>
+   <titleInfo>
+      <title>Class photograph of students with teacher</title>
+   </titleInfo>
+   <originInfo>
+      <dateCreated>1869-1922</dateCreated>
+      <dateCreated encoding="edtf" point="start">1869</dateCreated>
+      <dateCreated encoding="edtf" point="end">1922</dateCreated>
+   </originInfo>
+   <abstract>Inscription on back reads "Bottom front row, Helen Wade, 2 Luella Harden, Theora Grigsby, Maggie Chambers, Bessie White, 6 Margerette Yardley, Margerette Davis, Fleda Williams, Flora Cobb; second row, left to rt - Mary Jones, Beulah Harmon, Bessie Settler, Sallie Tate, [Huddler], [Hudulston], Sarah Black. Clarence Howard, Charles Boyd, 3 Charles [Huddleston], Benjomme Griffits, Ruddie Carmichal, row, Clarence Adams, Clifford Cambell, Paris McCrary, George Dockery, Lamell Henderson, Henry Saffell, Herman Massengill, George Harper, Edison Stewart. Teacher Mr. Brooks."</abstract>
+   <physicalDescription>
+      <form authority="aat" valueURI="http://vocab.getty.edu/aat/300046300">photographs</form>
+      <extent>8 x 10 inches</extent>
+   </physicalDescription>
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85001932">
+      <topic>African Americans</topic>
+   </subject>
+   <subject authority="tgm"
+            valueURI="http://id.loc.gov/vocabulary/graphicMaterials/tgm004759">
+      <topic>Group portraits</topic>
+   </subject>
+   <subject authority="tgm"
+            valueURI="http://id.loc.gov/vocabulary/graphicMaterials/tgm010299">
+      <topic>Students</topic>
+   </subject>
+   <typeOfResource>still image</typeOfResource>
+   <relatedItem displayLabel="Project" type="host">
+      <titleInfo>
+         <title>C. S. Boyd Photograph Collection</title>
+      </titleInfo>
+   </relatedItem>
+   <relatedItem displayLabel="Collection" type="host">
+      <titleInfo>
+         <title>C. S. Boyd Photograph Collection</title>
+      </titleInfo>
+      <identifier>MS-2129</identifier>
+   </relatedItem>
+   <location>
+      <physicalLocation valueURI="http://id.loc.gov/authorities/names/no2014027633">University of Tennessee, Knoxville. Special Collections</physicalLocation>
+   </location>
+   <recordInfo>
+      <recordContentSource valueURI="http://id.loc.gov/authorities/names/n87808088">University of Tennessee, Knoxville. Libraries</recordContentSource>
+   </recordInfo>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/CNE/1.0/">Copyright Not Evaluated</accessCondition>
+</mods>

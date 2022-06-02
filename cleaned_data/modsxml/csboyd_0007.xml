@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <identifier type="local">csboyd_0007</identifier>
+   <titleInfo>
+      <title>Portrait of a man and women</title>
+   </titleInfo>
+   <name>
+      <namePart>Fagg, L.D.</namePart>
+      <role>
+         <roleTerm authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+      </role>
+   </name>
+   <originInfo>
+      <dateCreated>1890-1920</dateCreated>
+      <dateCreated encoding="edtf" point="start">1890</dateCreated>
+      <dateCreated encoding="edtf" point="end">1920</dateCreated>
+   </originInfo>
+   <abstract>Potograph of a portrait of "Charles and Mary - Maryville, Tenn." Signature of L. D. Fagg on front.</abstract>
+   <physicalDescription>
+      <form authority="aat" valueURI="http://vocab.getty.edu/aat/300046300">photographs</form>
+      <extent>7 5/8 x 9 5/8 inches</extent>
+   </physicalDescription>
+   <subject authority="lcsh"
+            valueURI="http://id.loc.gov/authorities/subjects/sh85001932">
+      <topic>African Americans</topic>
+   </subject>
+   <subject authority="tgm"
+            valueURI="http://id.loc.gov/vocabulary/graphicMaterials/tgm004759">
+      <topic>Group portraits</topic>
+   </subject>
+   <typeOfResource>still image</typeOfResource>
+   <relatedItem displayLabel="Project" type="host">
+      <titleInfo>
+         <title>C. S. Boyd Photograph Collection</title>
+      </titleInfo>
+   </relatedItem>
+   <relatedItem displayLabel="Collection" type="host">
+      <titleInfo>
+         <title>C. S. Boyd Photograph Collection</title>
+      </titleInfo>
+      <identifier>MS-2129</identifier>
+   </relatedItem>
+   <location>
+      <physicalLocation valueURI="http://id.loc.gov/authorities/names/no2014027633">University of Tennessee, Knoxville. Special Collections</physicalLocation>
+   </location>
+   <recordInfo>
+      <recordContentSource valueURI="http://id.loc.gov/authorities/names/n87808088">University of Tennessee, Knoxville. Libraries</recordContentSource>
+   </recordInfo>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/CNE/1.0/">Copyright Not Evaluated</accessCondition>
+</mods>
