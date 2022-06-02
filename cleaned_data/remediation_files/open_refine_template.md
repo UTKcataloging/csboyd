@@ -1,4 +1,4 @@
-# Open Refine Template University of Tennessee Record
+# Open Refine Template CS Boyd Photograph Collection
 
 
 ## Template
@@ -13,17 +13,19 @@
 
 ```
 <mods>
-<identifier type="local">{{cells["identifier"].value}}</identifier>
+<identifier type="local">{{cells["Identifier"].value}}</identifier>
 
 {{if(isBlank(cells['title'].value), '', '<titleInfo><title>' + cells["title"].value + '</title></titleInfo>')}} 
 
 {{if(isBlank(cells['photographer'].value), '', '<name><namePart>' + cells['photographer'].value + '</namePart><role><roleTerm authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm></role></name>')}}
 
-{{if(isBlank(cells['date'].value), '', '<originInfo><dateCreated>' + cells['date'].value + '</dateCreated>') + if(isBlank(cells['date_edtf'].value), '', '<dateCreated encoding="edtf">' + cells['date_edtf'].value + '</dateCreated>') + if(isBlank(cells['date_start'].value), '', '<dateCreated encoding="edtf" point="start">' + cells['date_start'].value + '</dateCreated><dateCreated encoding="edtf" point="end">' + cells['date_end'].value + '</dateCreated></originInfo>')}}
+{{if(isBlank(cells['date'].value), '', '<originInfo><dateCreated>' + cells['date'].value + '</dateCreated>') + if(isBlank(cells['date_edtf'].value), '', '<dateCreated encoding="edtf">' + cells['date_edtf'].value + '</dateCreated>') + if(isBlank(cells['date_start'].value), '', '<dateCreated encoding="edtf" point="start">' + cells['date_start'].value + '</dateCreated><dateCreated encoding="edtf" point="end">' + cells['date_end'].value + '</dateCreated>') + '</originInfo>'}}
 
 <abstract>{{cells["Description"].value}}</abstract>
 
-<physicalDescription><form authority="aat" valueURI="{{cells['form_URI'].value}}">{{cells['form'].value}}</form></physicalDescription>
+<physicalDescription><form authority="aat" valueURI="{{cells['form_URI'].value}}">{{cells['form'].value}}</form>
+{{if(isBlank(cells['extent'].value), '', '<extent>' + cells['extent'].value + '</extent>')}}
+</physicalDescription>
 
 {{if(isBlank(cells['note'].value), '', '<note>' + cells['note'].value + '</note>')}}
 
@@ -39,6 +41,8 @@
 {{if(isBlank(cells['typeOfResource2'].value), '', '<typeOfResource>' + cells['typeOfResource2'].value + '</typeOfResource>')}}
 
 <relatedItem displayLabel="Project" type="host"><titleInfo><title>C. S. Boyd Photograph Collection</title></titleInfo></relatedItem>
+
+<relatedItem displayLabel="Collection" type="host"><titleInfo><title>C. S. Boyd Photograph Collection</title></titleInfo><identifier>MS-2129</identifier></relatedItem>
 
 <location><physicalLocation valueURI="http://id.loc.gov/authorities/names/no2014027633">University of Tennessee, Knoxville. Special Collections</physicalLocation></location>
 
